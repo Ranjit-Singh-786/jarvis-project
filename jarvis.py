@@ -1,4 +1,7 @@
 import datetime
+import pyttsx3
+def speak(audio):
+	
 corrent_time_and_date=datetime.datetime.now()
 hour = datetime.datetime.now().hour
 minute = datetime.datetime.now().minute
