@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-import datetime
-import pyttsx3
-def speak(audio):
-	
-corrent_time_and_date=datetime.datetime.now()
-hour = datetime.datetime.now().hour
-minute = datetime.datetime.now().minute
-second = datetime.datetime.now().second
-print(corrent_time_and_date)
-hour = int(input("enter your hour:- "))
-if hour > 0 and hour < 12 :
-    print("good morning")
-elif hour >= 12 and hour <=18:
-    print("good afternoon")
-else:
-    print("good evening")
-=======
 import pyttsx3
 # import speech_recognition
 engine = pyttsx3.init('sapi5')            #initlize sapi5 system
@@ -52,7 +34,6 @@ if __name__== "__main__":
 #     print("good afternoon")
 # else:
 #     print("good evening")
->>>>>>> job
 
 
 # if __name__ == "__main__" :          #this is nothing this is true condition
